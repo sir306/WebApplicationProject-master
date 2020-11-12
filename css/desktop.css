@@ -24,6 +24,8 @@ nav {
     max-width: 95% !important;
     margin: .5% auto;
     border-radius: 25px;
+    background-color: #933994;
+    /* #642f65 lighter purple for day mode */
 }
 div.nav-container {
     border: blanchedalmond solid 2px;
