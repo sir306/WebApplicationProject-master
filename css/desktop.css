@@ -10,35 +10,29 @@ body {
 
 /* Navbar */
 
-button{
+button {
     padding: 0px !important;
 }
 
-a.nav-link{
+a.nav-link {
     display: block;
-    margin: .2rem;
     color: white !important;
     word-wrap: none !important;
+    white-space: nowrap !important;
 }
 
 nav {
     max-width: 95% !important;
-    margin: .5% auto;
+    margin: auto;
     border-radius: 25px;
     background-color: #933994;
     /* #642f65 lighter purple for day mode */
 }
+
 div.nav-container {
     border: blanchedalmond solid 2px;
     border-radius: 25px;
     padding: .5%;
-    display: inline-block;
-}
-
-div.inner-navbar-container {
-    margin-left: 0%;
-    margin-right: 0%;
-    max-width: 100% !important;
 }
 
 h4.business-title {
@@ -46,4 +40,75 @@ h4.business-title {
     vertical-align: middle;
     color: white;
     margin: 1rem;
+    width: auto;
+}
+
+a.nav-link.active {
+    background-color: black;
+}
+
+#navbarResponsive {
+    margin-top: .4rem;
+    width: auto;
+    display: inline-flexbox;
+}
+
+img.nav-img {
+    max-height: 81px;
+    margin-top: .4rem;
+}
+
+button.navbar-toggler {
+    margin: auto;
+}
+
+/* general image styling */
+
+img {
+    border-radius: 25px;
+    max-width: 100%;
+}
+
+/* div containers for cols */
+
+div.row {
+    margin: auto;
+}
+
+/* image-carousel */
+
+#image-carousel {
+    border: solid 3px black;
+    border-radius: 25px;
+}
+
+img.d-block {
+    max-height: 200px;
+}
+
+/* service table */
+table, tr, td{
+    border: black solid 1em;
+
+}
+
+/* page-wrapper */
+div.page-wrapper {
+    margin-top: 5em;
+}
+
+/* email form */
+form.email-form {
+    border: solid black .4em;
+    margin: .2rem;
+    padding: .2rem;
+    border-radius: 10%;
+}
+#email-name, #email-email, #email-form, #submit-form, #reset-form {
+    margin: .2rem;
+    padding: .2rem;
+}
+
+#submit-form, #reset-form {
+    width: 45%;
 }

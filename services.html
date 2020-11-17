@@ -11,7 +11,7 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <!-- Font Awesome Stylesheets -->
-  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome/css/fontawesome.min.css">
   <link href="css/font-awesome/css/fontawesome.css" rel="stylesheet">
   <link href="css/font-awesome//css/brands.css" rel="stylesheet">
   <link href="css/font-awesome/css/solid.css" rel="stylesheet">
@@ -24,49 +24,60 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-    <div class="container inner-navbar-container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <div class="container-fluid nav-container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <h4 class="float-left business-title " style="white-space:nowrap;"><i class="fas fa-dog"></i> Your Household Vet
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <img class="nav-img" src="images/bharathi-kannan-rfL-thiRzDs-unsplash.jpg" alt="Second slide">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-dog"></i>
+      <span class="navbar-toggler-icon"></span>Menu <i class="fas fa-cat"></i>
+    </button>
+    <div class="collapse navbar-collapse nav-container" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <h4 class="float-left business-title nav-item"><i class="fas fa-dog"></i> Your Household Vet
           Nurse <i class="fas fa-cat"></i></h4>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <div class="container-fluid">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item col-sm active">
-                <button type="button" class="nav-link btn-block btn-lg btn-group bg-dark"><a class="nav-link"
-                    href="index.html" alt="Link to home page">Home</a></button>
-              </li>
-              <li class="nav-item col-sm">
-                <button type="button" class="nav-link btn-block btn-lg btn-group bg-dark"><a class="nav-link active"
-                    href="services.html" alt="Link to services page">Services</a></button>
-              </li>
-              <li class="nav-item col-sm">
-                <button type="button" class="nav-link btn-block btn-lg btn-group bg-dark"><a class="nav-link"
-                    href="about_us.html" alt="Link to about us page">About Us</a></button>
-              </li>
-              <li class="nav-item col-sm">
-                <button type="button" class="nav-link btn-block btn-lg btn-group bg-dark"><a class="nav-link"
-                    href="contact_us.html" alt="Link to contact us page">Contact Us</a></button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
+        <li class="nav-item col-sm nav-link">
+          <button type="button" class="nav-link btn-block btn-lg btn-group bg-dark"><a class="nav-link"
+              href="index.html" alt="Link to home page"><i class="fas fa-dog"></i> Home</a></button>
+        </li>
+        <li class="nav-item col-sm nav-link">
+          <button type="button" class="nav-link btn-block btn-lg btn-group bg-dark"><a class="nav-link active"
+              href="services.html" alt="Link to services page"><i class="fas fa-cat"></i> Services</a></button>
+        </li>
+        <li class="nav-item col-sm nav-link">
+          <button type="button" class="nav-link btn-block btn-lg btn-group bg-dark"><a class="nav-link"
+              href="about_us.html" alt="Link to about us page"><i class="fas fa-dog"></i> About Us</a></button>
+        </li>
+        <li class="nav-item col-sm nav-link">
+          <button type="button" class="nav-link btn-block btn-lg btn-group bg-dark"><a class="nav-link"
+              href="contact_us.html" alt="Link to contact us page"><i class="fas fa-cat"></i> Contact Us</a></button>
+        </li>
+      </ul>
     </div>
   </nav>
 
   <!--Page Content-->
-  <div class="container row">
-    <div class="col-sm"><textarea>insert left pannel image</textarea></div>
-    <div class="col-sm"><textarea>insert left col images</textarea></div>
-    <div class="col-sm"><textarea>service table</textarea></div>
-    <div class="col-sm"><textarea>insert right pannel image</textarea></div>
+  <div class="page-wrapper container row">
+    <div class="col-sm">
+      <img src="images/alvan-nee-eoqnr8ikwFE-unsplash.jpg" alt="A corgi puppy">
+    </div>
+    <div class="col-sm">
+      <img src="images/sergey-semin-VQPD1fc_Y8g-unsplash.jpg" alt="Another corgi puppy">
+    </div>
+    <div class="col-sm">
+      <label for="">Service List</label>
+      <table>
+        <tr>
+          <td>Job</td>
+          <td>Price</td>
+        </tr>
+        <tr>
+          <td>Grooming</td>
+          <td>$20 p/h</td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-sm">
+      <img src="images/hello-i-m-nik-Geu-i5VvI1A-unsplash.jpg" alt="An image of hello kitty">
+    </div>
   </div>
 
   <!-- Footer -->
