@@ -4,13 +4,143 @@ div.nav-img {
     height: 94px;
     width: 189.267px;
     background-image: url(../images/bharathi-kannan-rfL-thiRzDs-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     border-radius: 25px;
     max-height: 90px;
     margin-top: .4rem;
     margin-right: .4em;
 }
 
+/* Home page images */
+
+div.carousel-img-1 {
+    height: 380px;
+    width: 100%;
+    background-image: url(../images/kym-ellis-RcGUiP9dphM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
+
+div.carousel-img-2 {
+    height: 380px;
+    width: 100%;
+    background-image: url(../images/mikhail-vasilyev-NodtnCsLdTE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
+
+div.carousel-img-3 {
+    height: 380px;
+    width: 100%;
+    background-image: url(../images/daniele-d-andreti-sCqkCcYmtlM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
+
+div.carousel-img-4 {
+    height: 380px;
+    width: 100%;
+    background-image: url(../images/image4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
+div.left-panel-home {
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/charles-deluvio-K4mSJ7kc0As-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    margin-top: .4rem;
+    margin-right: .4em;
+}
+
+div.right-panel-home {
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/alan-king-KZv7w34tluA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    margin-top: .4rem;
+    margin-right: .4em;
+}
+/* Service page images */
+
+div.left-panel-services {
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/alvan-nee-eoqnr8ikwFE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    margin-top: .4rem;
+    margin-right: .4em;
+}
+
+div.right-panel-services {
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/willian-justen-de-vasconcellos-1hBWrLIDSCc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    margin-top: .4rem;
+    margin-right: .4em;
+}
+
+div.services-3-img-1 {
+    height: 290px;
+    width: 100%;
+    background-image: url(../images/received_1264568240566960.jpeg);
+    background-size: cover;
+    border-radius: 25px;
+    margin-top: .4rem;
+    margin-right: .4em;
+}
+
+div.services-3-img-2 {
+    height: 290px;
+    width: 100%;
+    background-image: url(../images/Snapchat-185681375.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    margin-top: .4rem;
+    margin-right: .4em;
+}
+
+div.services-3-img-3 {
+    height: 290px;
+    width: 100%;
+    background-image: url(../images/Snapchat-1518120212.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    margin-top: .4rem;
+    margin-right: .4em;
+}
 
 /* About Us images */
 
@@ -20,7 +150,10 @@ div.about-us-left-panel-img1 {
     width: 100%;
     margin: .4em;
     background-image: url(../images/image0.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     border-radius: 25px;
 }
 
@@ -30,7 +163,10 @@ div.about-us-left-panel-img2 {
     margin: .4em;
     width: 100%;
     background-image: url(../images/image2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     border-radius: 25px;
 }
 
@@ -40,7 +176,10 @@ div.about-us-left-panel-img3 {
     margin: .4em;
     width: 100%;
     background-image: url(../images/image3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     border-radius: 25px;
 }
 
@@ -51,7 +190,10 @@ div.about-us-right-panel-img1 {
     width: 100%;
     margin: .4em;
     background-image: url(../images/rhaul-v-alva-jCM48W7y6Y8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     border-radius: 25px;
     float: left;
 }
@@ -63,7 +205,10 @@ div.about-us-right-panel-img2 {
     width: 100%;
     margin: .4em;
     background-image: url(../images/sergey-semin-VQPD1fc_Y8g-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     border-radius: 25px;
     float: left;
 }
@@ -75,11 +220,13 @@ div.about-us-right-panel-img3 {
     width: 100%;
     margin: .4em;
     background-image: url(../images/kym-ellis-RcGUiP9dphM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     border-radius: 25px;
     float: left;
 }
-
 
 /* Contact Page images */
 
@@ -89,7 +236,10 @@ div.left-panel-contact-img {
     max-width: 594.333px;
     width: 100%;
     background-image: url(../images/jamie-street-y7boAQ5P1Bk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     border-radius: 25px;
 }
 
@@ -99,6 +249,9 @@ div.right-panel-contact-img {
     max-width: 594.333px;
     width: 100%;
     background-image: url(../images/20200928_153314.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     border-radius: 25px;
 }
