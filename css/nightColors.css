@@ -1,0 +1,132 @@
+/* Desktop Style Sheet */
+
+html {
+    background-color: black;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+a.nav-link {
+    color: white !important;
+    ;
+}
+
+nav {
+    background-color: #933994;
+}
+
+div.nav-container {
+    border: blanchedalmond solid 2px;
+}
+
+h4.business-title {
+    color: white;
+}
+
+a.nav-link.active {
+    background-color: black;
+}
+
+
+/* image-carousel */
+
+#image-carousel {
+    border: solid 3px black;
+}
+
+
+/* services page */
+
+table.service-table {
+    color: darkviolet;
+}
+
+div.services {
+    border: solid black .2em;
+    background-color: #933994;
+}
+
+td.service-data {
+    border: #933994;
+    background-color: darkgrey;
+}
+
+
+/* contact table */
+
+table.contact-table {
+    color: darkviolet;
+}
+
+td.contact-table-data {
+    border: #933994;
+    background-color: darkgrey;
+}
+
+div.contact-div {
+    border: black solid .2em;
+    background-color: #933994;
+}
+
+a.contact-num {
+    color: darkviolet;
+}
+
+a.contact-num:hover {
+    color: whitesmoke;
+}
+
+a.contact-email {
+    color: darkviolet;
+}
+
+a.contact-email:hover {
+    color: whitesmoke;
+}
+
+
+/* email form */
+
+form.email-form {
+    border: solid black .2em;
+    background-color: #933994;
+}
+
+#email-text,
+#email-email {
+    color: darkviolet;
+    background-color: darkgrey;
+}
+
+input.form-btn {
+    color: darkviolet;
+    background-color: darkgray;
+    border: blanchedalmond solid .15em;
+}
+
+input.form-btn:hover {
+    background-color: black;
+}
+
+
+/* about us page styling */
+
+div.about-us-left-panel {
+    border: solid black .2em;
+    background-color: #933994;
+}
+
+div.about-us-right-panel {
+    border: solid black .2em;
+    background-color: #933994;
+}
+
+
+/* footers */
+
+footer {
+    color: blanchedalmond;
+    background-color: black;
+}

@@ -1,0 +1,104 @@
+/* This sheet is for inserting the corresponding images to the correct locations */
+
+div.nav-img {
+    height: 94px;
+    width: 189.267px;
+    background-image: url(../images/bharathi-kannan-rfL-thiRzDs-unsplash.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    max-height: 90px;
+    margin-top: .4rem;
+    margin-right: .4em;
+}
+
+
+/* About Us images */
+
+div.about-us-left-panel-img1 {
+    height: 455.467px;
+    max-width: 341.6px;
+    width: 100%;
+    margin: .4em;
+    background-image: url(../images/image0.jpeg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+div.about-us-left-panel-img2 {
+    height: 455.467px;
+    max-width: 341.6px;
+    margin: .4em;
+    width: 100%;
+    background-image: url(../images/image2.jpeg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+div.about-us-left-panel-img3 {
+    height: 455.467px;
+    max-width: 341.6px;
+    margin: .4em;
+    width: 100%;
+    background-image: url(../images/image3.jpeg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+div.about-us-right-panel-img1 {
+    height: 350px;
+    max-height: 100%;
+    max-width: 487.75px;
+    width: 100%;
+    margin: .4em;
+    background-image: url(../images/rhaul-v-alva-jCM48W7y6Y8-unsplash.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    float: left;
+}
+
+div.about-us-right-panel-img2 {
+    height: 350px;
+    max-height: 100%;
+    max-width: 350px;
+    width: 100%;
+    margin: .4em;
+    background-image: url(../images/sergey-semin-VQPD1fc_Y8g-unsplash.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    float: left;
+}
+
+div.about-us-right-panel-img3 {
+    height: 350px;
+    max-height: 100%;
+    max-width: 487.75px;
+    width: 100%;
+    margin: .4em;
+    background-image: url(../images/kym-ellis-RcGUiP9dphM-unsplash.jpg);
+    background-size: cover;
+    border-radius: 25px;
+    float: left;
+}
+
+
+/* Contact Page images */
+
+div.left-panel-contact-img {
+    max-height: 750px;
+    height: 100%;
+    max-width: 594.333px;
+    width: 100%;
+    background-image: url(../images/jamie-street-y7boAQ5P1Bk-unsplash.jpg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+div.right-panel-contact-img {
+    max-height: 750px;
+    height: 100%;
+    max-width: 594.333px;
+    width: 100%;
+    background-image: url(../images/20200928_153314.jpg);
+    background-size: cover;
+    border-radius: 25px;
+}
