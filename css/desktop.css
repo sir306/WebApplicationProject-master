@@ -1,6 +1,5 @@
 /* Desktop Style Sheet */
 
-
 /* Navbar */
 
 button {
@@ -9,7 +8,6 @@ button {
 
 a.nav-link {
     display: block;
-    word-wrap: none !important;
     white-space: nowrap !important;
 }
 
@@ -41,14 +39,12 @@ button.navbar-toggler {
     margin: auto;
 }
 
-
 /* general image styling */
 
 img {
     border-radius: 25px;
     max-width: 100%;
 }
-
 
 /* Left and right panel images */
 
@@ -64,13 +60,11 @@ img.right-panel {
     height: 100%;
 }
 
-
 /* div containers for cols */
 
 div.row {
     margin: auto;
 }
-
 
 /* image-carousel */
 
@@ -81,7 +75,6 @@ div.row {
 img.d-block {
     height: 380px;
 }
-
 
 /* services page */
 
@@ -144,7 +137,6 @@ div.service-3-img {
     text-align: center;
 }
 
-
 /* contact table */
 
 table.contact-table {
@@ -195,7 +187,6 @@ a.contact-email {
     font-family: serif;
 }
 
-
 /* page-wrapper */
 
 div.page-wrapper {
@@ -203,7 +194,6 @@ div.page-wrapper {
     max-width: 100%;
     width: 100%;
 }
-
 
 /* email form */
 
@@ -218,10 +208,7 @@ label.email-form-label {
     margin-bottom: 0;
 }
 
-#email-text,
-#email-email,
-#submit-form,
-#reset-form {
+#email-text, #email-email, #submit-form, #reset-form {
     margin: .2rem;
     max-width: 100%;
     width: 98%;
@@ -233,22 +220,19 @@ div.div-form-btn {
     display: flex;
 }
 
-#email-text,
-#email-email {
+#email-text, #email-email {
     font-family: serif;
     resize: none;
 }
 
-#submit-form,
-#reset-form {
+#submit-form, #reset-form {
     max-width: 48%;
-    flex-wrap: row nowrap;
+    flex-wrap: nowrap;
 }
 
 input.form-btn {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 
 /* about us page styling */
 
@@ -274,7 +258,6 @@ div.about-us-table-row {
     justify-content: center;
 }
 
-
 /* footers */
 
 footer {
@@ -283,9 +266,7 @@ footer {
 }
 
 @media only screen and (max-width: 970px) {
-    #submit-form,
-    #reset-form {
+    #submit-form, #reset-form {
         max-width: 100%;
-        flex-wrap: row wrap;
     }
 }
