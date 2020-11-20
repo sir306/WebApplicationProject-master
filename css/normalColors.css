@@ -12,6 +12,7 @@ a.nav-link {
     color: white !important;
     background-color: #6600FF;
     transition: 0.3s;
+    border: blanchedalmond .03em solid;
 }
 
 nav {

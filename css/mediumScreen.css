@@ -1,0 +1,6 @@
+/* Medium Screen size css */
+
+/* nav */
+div.nav-container {
+    flex: wrap;
+}

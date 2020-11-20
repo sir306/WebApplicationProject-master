@@ -2,13 +2,16 @@
 
 /* Navbar */
 
-button {
-    padding: 0px !important;
-}
-
 a.nav-link {
     display: block;
     white-space: nowrap !important;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -25,9 +28,11 @@ div.nav-container {
 
 h4.business-title {
     height: 100%;
+    text-align: center;
     vertical-align: middle;
     margin: 1rem;
     width: auto;
+    font-size: 1.2em;
 }
 
 #navbarResponsive {
@@ -37,6 +42,7 @@ h4.business-title {
 
 button.navbar-toggler {
     margin: auto;
+    flex: auto;
 }
 
 /* general image styling */
