@@ -71,7 +71,7 @@
   </nav>
 
   <!--Page Content-->
-  <div class="page-wrapper container row">
+  <div class="page-wrapper container row" id="page-wrapper">
     <div class="left-col col-sm">
       <div class="left-panel-home" title="pug wearing a denim jacket"></div>
     </div>
@@ -108,13 +108,15 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <p>Hello, world! this is the landing information section, this needs to be centered and populated with text</p>
     </div>
     <div class="right-col col-sm">
       <div class="right-panel-home" title="fluffy dog, wearing sunglasses"></div>
-
     </div>
   </div>
+  <div class="medium-panel-container container row" id="panelContainer"></div>
+  <!-- this is where javascript is going to insert two divs -->
+
+
   <!-- Footer -->
   <footer>
     This is the footer
@@ -184,6 +186,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="javascript/mediumScreenInsert.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
