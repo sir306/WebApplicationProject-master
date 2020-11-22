@@ -34,10 +34,15 @@ function styleAndSizeDivPanel(div){
 
 function removeBackgroundImage(div){
     div.style.backgroundImage = "";
-    div.style.height = "0";
-    div.style.width = "0";
+}
+
+function removeClassName(div){
     document.getElementById("left-col").remove("col-sm");
     document.getElementById("right-col").remove("col-sm");
+}
+function addClassNameColSm(div){
+    div.add("col-sm");
+    div.add("col-sm");
 }
 
 const wd = divPageWrapper.clientWidth;
