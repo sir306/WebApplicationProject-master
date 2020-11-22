@@ -5,8 +5,69 @@ div.nav-container {
     flex: wrap;
 }
 
+/* Home */
 div.medium-panel-container {
     margin: 5em 0;
     max-width: 100%;
     width: 100%;
+}
+
+div.left-panel-home {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+
+div.left-col {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+div.right-panel-home {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+
+div.right-col {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+
+#image-carousel {
+    width: 70%;
+    margin: auto;
+}
+
+/* services */
+div.left-panel-services {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+
+div.left-panel {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+div.right-panel-services {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+
+div.right-panel {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
 }

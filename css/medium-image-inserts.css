@@ -59,7 +59,7 @@ div.carousel-img-4 {
     position: relative;
     border-radius: 25px;
 }
-div.left-panel-home {
+div.medium-left-panel-home {
     height: 750px;
     width: 100%;
     background-image: url(../images/charles-deluvio-K4mSJ7kc0As-unsplash.jpg);
@@ -72,7 +72,7 @@ div.left-panel-home {
     margin-right: .4em;
 }
 
-div.right-panel-home {
+div.medium-right-panel-home {
     height: 750px;
     width: 100%;
     background-image: url(../images/alan-king-KZv7w34tluA-unsplash.jpg);
@@ -86,7 +86,7 @@ div.right-panel-home {
 }
 /* Service page images */
 
-div.left-panel-services {
+div.medium-left-panel-services {
     height: 750px;
     width: 100%;
     background-image: url(../images/alvan-nee-eoqnr8ikwFE-unsplash.jpg);
@@ -99,7 +99,7 @@ div.left-panel-services {
     margin-right: .4em;
 }
 
-div.right-panel-services {
+div.medium-right-panel-services {
     height: 750px;
     width: 100%;
     background-image: url(../images/willian-justen-de-vasconcellos-1hBWrLIDSCc-unsplash.jpg);
@@ -120,6 +120,7 @@ div.services-3-img-1 {
     border-radius: 25px;
     margin-top: .4rem;
     margin-right: .4em;
+    margin-left: auto;
 }
 
 div.services-3-img-2 {
@@ -130,6 +131,7 @@ div.services-3-img-2 {
     border-radius: 25px;
     margin-top: .4rem;
     margin-right: .4em;
+    margin-left: auto;
 }
 
 div.services-3-img-3 {
@@ -140,6 +142,7 @@ div.services-3-img-3 {
     border-radius: 25px;
     margin-top: .4rem;
     margin-right: .4em;
+    margin-left: auto;
 }
 
 /* About Us images */

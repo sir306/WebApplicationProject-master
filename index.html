@@ -21,7 +21,8 @@
     need a day and night query -->
 
   <!-- Image insert Style Sheet -->
-  <link rel="stylesheet" href="css/image-inserts.css">
+  <link rel="stylesheet" media="only screen and (min-width:992px)" href="css/image-inserts.css">
+  <link rel="stylesheet" media="only screen and (max-width:991px)" href="css/medium-image-inserts.css">
 
   <!-- Desktop Stylesheet -->
   <link rel="stylesheet" href="css/normalColors.css">
@@ -30,10 +31,10 @@
   <!--Adjust to light level  -->
   <link rel="stylesheet" type="text/css" media="(light-level:normal)" href="css/normalColors.css" />
   <link rel="stylesheet" type="text/css" media="(light-level:dim)" href="css/nightColors.css" />
-  
+
   <!-- Medium screen style sheets -->
   <link rel="stylesheet" type="text/css" media="only screen and (max-width:991px)" href="css/mediumScreen.css">
-  
+
   <title>Your Household Vet Nurse</title>
 
 </head>
@@ -113,7 +114,10 @@
       <div class="right-panel-home" title="fluffy dog, wearing sunglasses"></div>
     </div>
   </div>
-  <div class="medium-panel-container container row" id="panelContainer"></div>
+  <div class="medium-panel-container container row" id="panelContainer">
+    <div class="medium-left-panel-home col-sm"></div>
+    <div class="medium-right-panel-home col-sm"></div>
+  </div>
   <!-- this is where javascript is going to insert two divs -->
 
 
@@ -186,7 +190,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="javascript/mediumScreenInsert.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
