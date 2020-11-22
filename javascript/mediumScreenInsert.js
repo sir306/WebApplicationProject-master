@@ -12,19 +12,12 @@ function createDivs() {
     rightPanel.classList.add("col-sm");
     // rightPanel.innerHTML='right panel';
     leftPanel.style.background = "url('images/charles-deluvio-K4mSJ7kc0As-unsplash.jpg')";
-    leftPanel.style.height= "750px";
-    leftPanel.style.width= "100%";
-    leftPanel.style.backgroundPosition= "center";
-    leftPanel.style.backgroundRepeat= "no-repeat";
-    leftPanel.style.backgroundSize= "cover";
-    leftPanel.style.position= "relative";
-    leftPanel.style.borderRadius= "25px";
-    leftPanel.style.marginTop= ".4rem";
-    leftPanel.style.marginRight= ".4em";
     rightPanel.style.backgroundImage = "url('images/alan-king-KZv7w34tluA-unsplash.jpg')";
-    st
+    styleAndSizeDivPanel(leftPanel);
+    styleAndSizeDivPanel(rightPanel);
     document.getElementById("panelContainer").appendChild(leftPanel);
-    document.getElementById("panelContainer").appendChild(rightPanel);  
+    document.getElementById("panelContainer").appendChild(rightPanel);
+    removeBackgroundImage(document.getElementById("left-panel-home"));  
 }
 
 function styleAndSizeDivPanel(div){
@@ -38,6 +31,15 @@ function styleAndSizeDivPanel(div){
     div.style.marginTop= ".4rem";
     div.style.marginRight= ".4em";
 }
+
+function removeBackgroundImage(div){
+    div.style.backgroundImage = "";
+    div.style.height = "0";
+    div.style.width = "0";
+    document.getElementById("left-col").remove("col-sm");
+    document.getElementById("right-col").remove("col-sm");
+}
+
 const wd = divPageWrapper.clientWidth;
 
 //check screen size
