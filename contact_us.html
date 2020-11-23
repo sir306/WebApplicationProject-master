@@ -17,7 +17,8 @@
     <link href="css/font-awesome/css/solid.css" rel="stylesheet">
 
     <!-- Image insert Style Sheet -->
-    <link rel="stylesheet" href="css/image-inserts.css">
+    <link rel="stylesheet" media="only screen and (min-width:992px)" href="css/image-inserts.css">
+    <link rel="stylesheet" media="only screen and (max-width:991px)" href="css/medium-image-inserts.css">
 
     <!-- Desktop Stylesheet -->
     <link rel="stylesheet" href="css/normalColors.css">
@@ -29,6 +30,9 @@
 
     <!-- Medium screen style sheets -->
     <link rel="stylesheet" type="text/css" media="only screen and (max-width:991px)" href="css/mediumScreen.css">
+
+    <!-- Small screen style sheets -->
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width:350px)" href="css/smallScreen.css">
 
 
     <title>Your Household Vet Nurse</title>
@@ -69,7 +73,7 @@
 
     <!--Page Content-->
     <div class="page-wrapper container row">
-        <div class="col-sm">
+        <div class="col-sm left-panel-contact-us">
             <div class="left-panel-contact-img" title="dog standing in a pond"></div>
         </div>
         <div class="col-sm">
@@ -109,8 +113,12 @@
                 </div>
             </form>
         </div>
-        <div class="col-sm">
+        <div class="col-sm right-panel-contact-us">
             <div class="right-panel-contact-img" title="chelsea holding a german shepherd puppy"></div>
+        </div>
+        <div class="medium-panel-container container row" id="panelContainer">
+            <div class="medium-left-panel-contact-us col-sm"></div>
+            <div class="medium-right-panel-contact-us col-sm"></div>
         </div>
     </div>
 

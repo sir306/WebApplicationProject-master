@@ -40,7 +40,7 @@ div.right-col {
 }
 
 #image-carousel {
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
@@ -70,4 +70,65 @@ div.right-panel {
     height: 0 !important;
     max-width: 0 !important;
     flex-grow: 0;
+}
+
+/* About us */
+
+div.about-us-right-panel {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+    border: none;
+    color: none;
+    padding: 0;
+}
+
+div.medium-panel-container {
+    padding: .4rem;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 1.5rem;
+    text-align: center;
+    overflow: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+div.about-us-table-row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Contact Us */
+div.left-panel-contact-us {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+
+div.left-panel {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+div.right-panel-contact-us {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+
+div.right-panel {
+    width: 0 !important;
+    height: 0 !important;
+    max-width: 0 !important;
+    flex-grow: 0;
+}
+
+div.about-us-table-row {
+    display: flex;
+    justify-content: center;
 }

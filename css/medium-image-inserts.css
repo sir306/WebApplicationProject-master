@@ -186,7 +186,7 @@ div.about-us-left-panel-img3 {
     border-radius: 25px;
 }
 
-div.about-us-right-panel-img1 {
+div.medium-about-us-right-panel-img1 {
     height: 350px;
     max-height: 100%;
     max-width: 487.75px;
@@ -201,7 +201,7 @@ div.about-us-right-panel-img1 {
     float: left;
 }
 
-div.about-us-right-panel-img2 {
+div.medium-about-us-right-panel-img2 {
     height: 350px;
     max-height: 100%;
     max-width: 350px;
@@ -216,10 +216,9 @@ div.about-us-right-panel-img2 {
     float: left;
 }
 
-div.about-us-right-panel-img3 {
+div.medium-about-us-right-panel-img3 {
     height: 350px;
     max-height: 100%;
-    max-width: 487.75px;
     width: 100%;
     margin: .4em;
     background-image: url(../images/kym-ellis-RcGUiP9dphM-unsplash.jpg);
@@ -233,10 +232,8 @@ div.about-us-right-panel-img3 {
 
 /* Contact Page images */
 
-div.left-panel-contact-img {
-    max-height: 750px;
-    height: 100%;
-    max-width: 594.333px;
+div.medium-left-panel-contact-us {
+    height: 750px;
     width: 100%;
     background-image: url(../images/jamie-street-y7boAQ5P1Bk-unsplash.jpg);
     background-position: center;
@@ -244,12 +241,12 @@ div.left-panel-contact-img {
     background-size: cover;
     position: relative;
     border-radius: 25px;
+    margin-top: .4rem;
+    margin-right: .4em;
 }
 
-div.right-panel-contact-img {
-    max-height: 750px;
-    height: 100%;
-    max-width: 594.333px;
+div.medium-right-panel-contact-us {
+    height: 750px;
     width: 100%;
     background-image: url(../images/20200928_153314.jpg);
     background-position: center;
@@ -257,4 +254,6 @@ div.right-panel-contact-img {
     background-size: cover;
     position: relative;
     border-radius: 25px;
+    margin-top: .4rem;
+    margin-right: .4em;
 }

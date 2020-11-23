@@ -141,6 +141,11 @@ div.about-us-right-panel {
     background-color: #CC00FF;
 }
 
+div.about-us-container {
+    border: solid #6600FF .2em;
+    background-color: #CC00FF;
+}
+
 
 /* footers */
 
