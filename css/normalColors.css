@@ -22,8 +22,6 @@ nav {
 .navbar-toggler {
     color: white !important;
     border: white solid .03em !important;
-    border-radius: 25px;
-    padding: .3em !important;
 }
 
 .navbar-toggler-icon {
@@ -44,6 +42,11 @@ a.nav-link.active {
 
 a.nav-link:hover {
     opacity: 0.6;
+}
+
+button.layout-toggle-night-small,
+button.layout-toggle-night-large {
+    border-color: black;
 }
 
 
@@ -115,6 +118,12 @@ form.email-form {
 #email-email {
     color: white;
     background-color: #6600FF;
+}
+
+#email-text::placeholder,
+#email-email::placeholder {
+    color: white;
+    opacity: 1;
 }
 
 input.form-btn {

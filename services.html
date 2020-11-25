@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-widtd, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Font Awesome Stylesheets -->
     <link rel="stylesheet" href="css/font-awesome/css/fontawesome.min.css">
@@ -21,18 +20,18 @@
     <link rel="stylesheet" media="only screen and (max-width:991px)" href="css/medium-image-inserts.css">
 
     <!-- Desktop Stylesheet -->
-    <link rel="stylesheet" href="css/normalColors.css">
-    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="./css/normalColors.css" id="style-sheet">
+    <link rel="stylesheet" href="./css/desktop.css">
 
     <!--Adjust to light level  -->
-    <link rel="stylesheet" type="text/css" media="(light-level:normal)" href="css/normalColors.css" />
-    <link rel="stylesheet" type="text/css" media="(light-level:dim)" href="css/nightColors.css" />
+    <link rel="stylesheet" type="text/css" media="(light-level:normal)" href="./css/normalColors.css" />
+    <link rel="stylesheet" type="text/css" media="(light-level:dim)" href="./css/nightColors.css" />
 
     <!-- Medium screen style sheets -->
-    <link rel="stylesheet" type="text/css" media="only screen and (max-width:991px)" href="css/mediumScreen.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width:991px)" href="./css/mediumScreen.css">
 
     <!-- Small screen style sheets -->
-    <link rel="stylesheet" type="text/css" media="only screen and (max-width:350px)" href="css/smallScreen.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width:350px)" href="./css/smallScreen.css">
 
 
     <title>Your Household Vet Nurse</title>
@@ -41,13 +40,13 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="nav-img"></div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="layout-toggle-day-small"><i class="fas fa-sun"></i></button>
+        <button class="layout-toggle-night-small"><i class="fas fa-moon"></i></button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span><i class="fas "> Your Household Vet Nurse </i>
         </button>
         <div class="collapse navbar-collapse justify-content-between nav-container" id="navbarResponsive">
-            <h4 class="business-title nav-item"><i class="fas fa-dog"></i> Your Household Vet Nurse <i
-                    class="fas fa-cat"></i></h4>
+            <h4 class="business-title nav-item"><i class="fas fa-dog"></i> Your Household Vet Nurse <i class="fas fa-cat"></i></h4>
             <ul class="navbar-collapse ml-auto w-100 ">
                 <li class="nav-item col-sm nav-link">
                     <a class="nav-link btn-block btn-lg w-100 btn-group" href="index.html"><i class="fas fa-dog"></i>
@@ -70,6 +69,8 @@
                 </li>
             </ul>
         </div>
+        <button class="layout-toggle-day-large"><i class="fas fa-sun"></i></button>
+        <button class="layout-toggle-night-large"><i class="fas fa-moon"></i></button>
     </nav>
 
     <!--Page Content-->
@@ -142,11 +143,7 @@
                         </tr>
 
                         <tr class="service-row">
-                            <td class="service-data operating-hours" colspan="3">These rates are for normal operating
-                                hours,
-                                which is between 09:00am - 06:00pm. <br> If you require work outside these operating
-                                hours
-                                it will increase the operating rates which is to be discussed prior.</td>
+                            <td class="service-data operating-hours" colspan="3">These rates are for normal operating hours, which is between 09:00am - 06:00pm. <br> If you require work outside these operating hours it will increase the operating rates which is to be discussed prior.</td>
                         </tr>
                     </table>
                 </div>
@@ -170,15 +167,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="javascript/dayNightButton.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

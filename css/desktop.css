@@ -1,5 +1,6 @@
 /* Desktop Style Sheet */
 
+
 /* page-wrapper */
 
 div.page-wrapper {
@@ -7,6 +8,7 @@ div.page-wrapper {
     max-width: 100%;
     width: 100%;
 }
+
 
 /* Navbar */
 
@@ -17,6 +19,7 @@ a.nav-link {
     margin: auto;
     position: relative;
 }
+
 ul {
     margin: 0;
     padding: 0;
@@ -51,9 +54,21 @@ h4.business-title {
 button.navbar-toggler {
     margin: auto;
     flex: auto;
+    border-radius: 25px;
+    padding: .3em !important;
 }
 
+
 /* Night and Day button */
+
+button.layout-toggle-day-small,
+button.layout-toggle-night-small,
+button.layout-toggle-day-large,
+button.layout-toggle-night-large {
+    background-color: unset;
+    margin: .2rem .2rem .4rem .4rem;
+    border-radius: 25px;
+}
 
 
 /* general image styling */
@@ -62,6 +77,7 @@ img {
     border-radius: 25px;
     max-width: 100%;
 }
+
 
 /* Left and right panel images */
 
@@ -77,11 +93,13 @@ img.right-panel {
     height: 100%;
 }
 
+
 /* div containers for cols */
 
 div.row {
     margin: auto;
 }
+
 
 /* image-carousel */
 
@@ -92,6 +110,7 @@ div.row {
 img.d-block {
     height: 380px;
 }
+
 
 /* services page */
 
@@ -153,6 +172,7 @@ img.services-3-img {
 div.service-3-img {
     text-align: center;
 }
+
 
 /* about us page styling */
 
@@ -247,7 +267,10 @@ label.email-form-label {
     margin-bottom: 0;
 }
 
-#email-text, #email-email, #submit-form, #reset-form {
+#email-text,
+#email-email,
+#submit-form,
+#reset-form {
     margin: .2rem;
     max-width: 100%;
     width: 98%;
@@ -259,12 +282,14 @@ div.div-form-btn {
     display: flex;
 }
 
-#email-text, #email-email {
+#email-text,
+#email-email {
     font-family: serif;
     resize: none;
 }
 
-#submit-form, #reset-form {
+#submit-form,
+#reset-form {
     max-width: 48%;
     flex-wrap: nowrap;
 }

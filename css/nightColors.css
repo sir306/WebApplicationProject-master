@@ -14,6 +14,7 @@ a.nav-link {
     transition: 0.3s;
     border: blanchedalmond .03em solid;
 }
+
 a.nav-link:hover {
     opacity: 0.6;
 }
@@ -32,6 +33,12 @@ h4.business-title {
 
 a.nav-link.active {
     background-color: black;
+}
+
+button.layout-toggle-day-small,
+button.layout-toggle-day-large {
+    border-color: white;
+    color: yellow;
 }
 
 
