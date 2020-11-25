@@ -1,5 +1,13 @@
 /* Desktop Style Sheet */
 
+/* page-wrapper */
+
+div.page-wrapper {
+    margin: 5em 0;
+    max-width: 100%;
+    width: 100%;
+}
+
 /* Navbar */
 
 a.nav-link {
@@ -44,6 +52,9 @@ button.navbar-toggler {
     margin: auto;
     flex: auto;
 }
+
+/* Night and Day button */
+
 
 /* general image styling */
 
@@ -143,6 +154,31 @@ div.service-3-img {
     text-align: center;
 }
 
+/* about us page styling */
+
+div.about-us-left-panel {
+    padding: .4rem;
+    border-radius: 25px;
+    margin-top: .2em;
+    text-align: center;
+}
+
+div.about-us-right-panel {
+    padding: .4rem;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+div.about-us-table-row {
+    display: flex;
+    justify-content: center;
+}
+
+
 /* contact table */
 
 table.contact-table {
@@ -193,13 +229,10 @@ a.contact-email {
     font-family: serif;
 }
 
-/* page-wrapper */
-
-div.page-wrapper {
-    margin: 5em 0;
-    max-width: 100%;
-    width: 100%;
+div.container-contact-us {
+    margin: 0;
 }
+
 
 /* email form */
 
@@ -240,39 +273,10 @@ input.form-btn {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* about us page styling */
-
-div.about-us-left-panel {
-    padding: .4rem;
-    border-radius: 25px;
-    margin-top: .2em;
-    text-align: center;
-}
-
-div.about-us-right-panel {
-    padding: .4rem;
-    border-radius: 25px;
-    margin: auto;
-    text-align: center;
-    overflow: auto;
-    max-width: 100%;
-    width: 100%;
-}
-
-div.about-us-table-row {
-    display: flex;
-    justify-content: center;
-}
 
 /* footers */
 
 footer {
     font-size: smaller;
     margin: .4em .6em;
-}
-
-@media only screen and (max-width: 970px) {
-    #submit-form, #reset-form {
-        max-width: 100%;
-    }
 }

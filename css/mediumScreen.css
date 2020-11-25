@@ -108,7 +108,7 @@ div.left-panel-contact-us {
     flex-grow: 0;
 }
 
-div.left-panel {
+div.left-panel-img {
     width: 0 !important;
     height: 0 !important;
     max-width: 0 !important;
@@ -121,7 +121,7 @@ div.right-panel-contact-us {
     flex-grow: 0;
 }
 
-div.right-panel {
+div.right-panel-img {
     width: 0 !important;
     height: 0 !important;
     max-width: 0 !important;

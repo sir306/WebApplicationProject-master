@@ -21,12 +21,12 @@
     <link rel="stylesheet" media="only screen and (max-width:991px)" href="css/medium-image-inserts.css">
 
     <!-- Desktop Stylesheet -->
-    <link rel="stylesheet" href="css/nightColors.css">
+    <link rel="stylesheet" href="./css/normalColors.css" id="style-sheet">
     <link rel="stylesheet" href="css/desktop.css">
 
     <!--Adjust to light level  -->
-    <link rel="stylesheet" type="text/css" media="(light-level:normal)" href="css/normalColors.css" />
-    <link rel="stylesheet" type="text/css" media="(light-level:dim)" href="css/nightColors.css" />
+    <link rel="stylesheet" type="text/css" media="(light-level:normal)" href="./css/normalColors.css" />
+    <link rel="stylesheet" type="text/css" media="(light-level:dim)" href="./css/nightColors.css" />
 
     <!-- Medium screen style sheets -->
     <link rel="stylesheet" type="text/css" media="only screen and (max-width:991px)" href="css/mediumScreen.css">
@@ -45,8 +45,8 @@
             aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span><i class="fas "> Your Household Vet Nurse </i>
         </button>
-        <button hidden><i class="fas fa-sun"></i></button>
-        <button hidden><i class="fas fa-moon"></i></button>
+        <button class="layout-toggle-day-small" hidden><i class="fas fa-sun"></i></button>
+        <button class="layout-toggle-night-small" hidden><i class="fas fa-moon"></i></button>
         <div class="collapse navbar-collapse justify-content-between nav-container" id="navbarResponsive">
             <h4 class="business-title nav-item"><i class="fas fa-dog"></i> Your Household Vet Nurse <i
                     class="fas fa-cat"></i></h4>
@@ -71,54 +71,57 @@
                 </li>
             </ul>
         </div>
-        <button class="layout-toggle-day"><i class="fas fa-sun"></i></button>
-        <button class="layout-toggle-night"><i class="fas fa-moon"></i></button>
+        <button class="layout-toggle-day-large"><i class="fas fa-sun"></i></button>
+        <button class="layout-toggle-night-large"><i class="fas fa-moon"></i></button>
     </nav>
 
     <!--Page Content-->
-    <div class="page-wrapper container row">
-        <div class="col-sm left-panel-contact-us">
-            <div class="left-panel-contact-img" title="dog standing in a pond"></div>
-        </div>
-        <div class="col-sm">
-            <div class="contact-div">
-                <table class="contact-table">
-                    <tr class="contact-row">
-                        <td class="contact-table-data" colspan="2">Contact Details</td>
-                    </tr>
-                    <tr class="contact-row">
-                        <td class="contact-table-data">Phone Number</td>
-                        <td class="contact-table-data">
-                            <a class="contact-num" href="tel:+64225800441">022-5800-441</a>
-                        </td>
-                    </tr>
-                    <tr class="contact-row">
-                        <td class="contact-table-data">Email</td>
-                        <td class="contact-table-data">
-                            <a class="contact-email" href="mailto:nrh55@mywhitecliffe.com">nrh55@mywhitecliffe.com</a>
-                        </td>
-                    </tr>
-                    <tr class="contact-row">
-                        <td class="contact-table-data">Contact Hours</td>
-                        <td class="contact-table-data">09:00am - 06:00pm</td>
-                    </tr>
-                </table>
+    <div class="page-wrapper container">
+        <div class="container-contact-us row">
+            <div class="col-sm left-panel-contact-us">
+                <div class="left-panel-contact-img" title="dog standing in a pond"></div>
             </div>
-            <label class="email-form-label" for="email-text">Ask us a question</label>
-            <form class="email-form" action="mailto:nrh55@mywhitecliffe.com" method="post" enctype="text/plain">
-                Message: <br>
-                <textarea name="email-text" id="email-text" cols="30" rows="5" maxlength="150"
-                    placeholder="Enter your question/request, max amount of characters is 150..."></textarea><br>
-                <label for="email-email">Enter your email: </label><input type="text" name="email-email"
-                    id="email-email" placeholder="Maximun of 60 characters"><br>
-                <div class="div-form-btn">
-                    <input class="btn form-btn" id="reset-form" type="reset" value="Cancel">
-                    <input class="btn form-btn" id="submit-form" type="submit" value="Send Message">
+            <div class="col-sm">
+                <div class="contact-div">
+                    <table class="contact-table">
+                        <tr class="contact-row">
+                            <td class="contact-table-data" colspan="2">Contact Details</td>
+                        </tr>
+                        <tr class="contact-row">
+                            <td class="contact-table-data">Phone Number</td>
+                            <td class="contact-table-data">
+                                <a class="contact-num" href="tel:+64225800441">022-5800-441</a>
+                            </td>
+                        </tr>
+                        <tr class="contact-row">
+                            <td class="contact-table-data">Email</td>
+                            <td class="contact-table-data">
+                                <a class="contact-email"
+                                    href="mailto:nrh55@mywhitecliffe.com">nrh55@mywhitecliffe.com</a>
+                            </td>
+                        </tr>
+                        <tr class="contact-row">
+                            <td class="contact-table-data">Contact Hours</td>
+                            <td class="contact-table-data">09:00am - 06:00pm</td>
+                        </tr>
+                    </table>
                 </div>
-            </form>
-        </div>
-        <div class="col-sm right-panel-contact-us">
-            <div class="right-panel-contact-img" title="chelsea holding a german shepherd puppy"></div>
+                <label class="email-form-label" for="email-text">Ask us a question</label>
+                <form class="email-form" action="mailto:nrh55@mywhitecliffe.com" method="post" enctype="text/plain">
+                    Message: <br>
+                    <textarea name="email-text" id="email-text" cols="30" rows="5" maxlength="150"
+                        placeholder="Enter your question/request, max amount of characters is 150..."></textarea><br>
+                    <label for="email-email">Enter your email: </label><input type="email" name="email-email"
+                        id="email-email" placeholder="Maximun of 60 characters"><br>
+                    <div class="div-form-btn">
+                        <input class="btn form-btn" id="reset-form" type="reset" value="Cancel">
+                        <input class="btn form-btn" id="submit-form" type="submit" value="Send Message">
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm right-panel-contact-us">
+                <div class="right-panel-contact-img" title="chelsea holding a german shepherd puppy"></div>
+            </div>
         </div>
         <div class="medium-panel-container container row" id="panelContainer">
             <div class="medium-left-panel-contact-us col-sm"></div>
