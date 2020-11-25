@@ -13,6 +13,7 @@ function validateEmail() {
         alert("text")
         emailMsg.style.transition = "border-width 1.2s linear";
         emailMsg.style.border = "red solid 2px";
+        alert("please enter a message to send");
         return false;
     }
     // Check if email format is correct  
@@ -20,25 +21,15 @@ function validateEmail() {
         alert("email")
         emailAddy.style.transition = "border-width 1.2s linear";
         emailAddy.style.border = "red solid 2px";
+        alert("please enter a valid email to send");
         return false;
     } else {
         return true;
     }
 }
 emailMsg.addEventListener('click', () => {
-    if (stylesheet.getAttribute("href") == "./css/nightColors.css") {
-        emailAddy.style.borderColor = "initial"
-
-    } else if (stylesheet.getAttribute("href") == "./css/normalColors.css") {
-        emailMsg.style.borderColor = "initial"
-    }
-
+    emailMsg.style.borderColor = "initial"
 })
 emailAddy.addEventListener('click', () => {
-    if (stylesheet.getAttribute("href") == "./css/nightColors.css") {
-        emailAddy.style.borderColor = "initial";
-    } else if (stylesheet.getAttribute("href") == "./css/normalColors.css") {
-        emailAddy.style.borderColor = "initial";
-    }
-
+    emailAddy.style.borderColor = "initial";
 })

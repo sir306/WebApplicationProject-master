@@ -106,7 +106,7 @@
                 <form class="email-form" onsubmit="return validateEmail()" action="mailto:nrh55@mywhitecliffe.com" method="post" enctype="text/plain">
                     Message: <br>
                     <textarea name="email-text" id="email-text" cols="30" rows="5" maxlength="150" placeholder="Enter your question/request, max amount of characters is 150..."></textarea><br>
-                    <label for="email-email">Enter your email: </label><input type="email" name="email-email" id="email-email" placeholder="Maximun of 60 characters"><br>
+                    <label for="email-email">Enter your email: </label><input type="email" name="email-email" id="email-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Maximun of 60 characters"><br>
                     <div class="div-form-btn">
                         <input class="btn form-btn" id="reset-form" type="reset" value="Cancel">
                         <input class="btn form-btn" id="submit-form" type="submit" value="Send Message">
