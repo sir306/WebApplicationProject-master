@@ -9,7 +9,7 @@ body {
 }
 
 a.nav-link {
-    color: white !important;
+    color: white ;
     background-color: #6600FF;
     transition: 0.3s;
     border: blanchedalmond .03em solid;
@@ -47,6 +47,12 @@ a.nav-link:hover {
 button.layout-toggle-night-small,
 button.layout-toggle-night-large {
     border-color: black;
+}
+button.layout-toggle-night-small:hover,
+button.layout-toggle-night-large:hover {
+    border-color:white;
+    background-color: black;
+    color: white;
 }
 
 
@@ -155,10 +161,22 @@ div.about-us-container {
     background-color: #CC00FF;
 }
 
+/* Nav links bottom page */
+.base-nav {
+    
+    background-color: #6600FF;
+}
+a.base-nav {
+    color: #66CCFF;
+}
+a.base-nav:hover {
+    color: #6600FF;
+    background-color: #66CCFF;
+}
 
 /* footers */
 
 footer {
-    color: blanchedalmond;
+    color: #66CCFF;
     background-color: #6600FF;
 }

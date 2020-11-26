@@ -35,19 +35,22 @@ a.nav-link.active {
     background-color: black;
 }
 
-button.layout-toggle-day-small,
-button.layout-toggle-day-large {
+button.layout-toggle-day-small, button.layout-toggle-day-large {
     border-color: white;
     color: yellow;
 }
 
+button.layout-toggle-day-small:hover, button.layout-toggle-day-large:hover {
+    border-color: yellow;
+    background-color: yellow;
+    color: orange;
+}
 
 /* image-carousel */
 
 #image-carousel {
     border: solid 3px black;
 }
-
 
 /* services page */
 
@@ -64,7 +67,6 @@ td.service-data {
     border: #933994;
     background-color: darkgrey;
 }
-
 
 /* contact table */
 
@@ -98,7 +100,6 @@ a.contact-email:hover {
     color: whitesmoke;
 }
 
-
 /* email form */
 
 form.email-form {
@@ -106,8 +107,7 @@ form.email-form {
     background-color: #933994;
 }
 
-#email-text,
-#email-email {
+#email-text, #email-email {
     color: darkviolet;
     background-color: darkgrey;
 }
@@ -122,7 +122,6 @@ input.form-btn:hover {
     background-color: black;
 }
 
-
 /* about us page styling */
 
 div.about-us-left-panel {
@@ -135,6 +134,21 @@ div.about-us-right-panel {
     background-color: #933994;
 }
 
+/* Nav links bottom page */
+
+.base-nav {
+    background-color: black;
+}
+
+a.base-nav {
+    color: blanchedalmond;
+    background-color: #933994;
+}
+
+a.base-nav:hover {
+    color: darkviolet;
+    background-color: darkgray;
+}
 
 /* footers */
 
