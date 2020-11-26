@@ -7,6 +7,7 @@ div.page-wrapper {
     margin: 3em 0 !important;
     max-width: 100%;
     width: 100%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 
@@ -127,7 +128,7 @@ table.service-table {
     border-spacing: 0;
     margin: auto;
     width: 90%;
-    font-family: serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 div.services {
@@ -206,6 +207,9 @@ div.about-us-table-row {
     justify-content: center;
 }
 
+.second-text-about {
+    margin-top: 1.5em;
+}
 
 /* contact table */
 
@@ -214,7 +218,7 @@ table.contact-table {
     border-spacing: 0;
     margin: auto;
     width: 90%;
-    font-family: serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 td.contact-table-data {
@@ -249,12 +253,12 @@ div.contact-div {
 
 a.contact-num {
     text-decoration: none;
-    font-family: serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 a.contact-email {
     text-decoration: none;
-    font-family: serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 div.container-contact-us {
@@ -292,7 +296,7 @@ div.div-form-btn {
 
 #email-text,
 #email-email {
-    font-family: serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     resize: none;
 }
 
@@ -303,7 +307,7 @@ div.div-form-btn {
 }
 
 input.form-btn {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 
@@ -313,3 +317,5 @@ footer {
     font-size: smaller;
     margin: .4em .6em;
 }
+
+a {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat970.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat970.gif), auto !important;}
