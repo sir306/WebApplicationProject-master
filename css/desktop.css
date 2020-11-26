@@ -62,6 +62,7 @@ button.navbar-toggler {
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
+
 /* Night and Day button */
 
 button.layout-toggle-day-small,
@@ -103,12 +104,15 @@ div.row {
     margin: auto;
 }
 
+
 /* page writing contents */
+
 p {
     font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: 1.3em;
     font-weight: 600;
 }
+
 
 /* image-carousel */
 
@@ -210,6 +214,7 @@ div.about-us-table-row {
 .second-text-about {
     margin-top: 1.5em;
 }
+
 
 /* contact table */
 
@@ -318,4 +323,43 @@ footer {
     margin: .4em .6em;
 }
 
-a {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat970.ani), url(http://cur.cursors-4u.net/nature/nat-10/nat970.gif), auto !important;}
+
+/* custom cursors downloaded from http://cur.cursors-4u.net */
+
+a {
+    cursor: none;
+}
+
+body {
+    cursor: none;
+}
+
+button {
+    cursor: none;
+}
+
+.cursor1 {
+    display: hidden;
+    position: absolute;
+    width: 95px !important;
+    height: 95px !important;
+    left: -100px;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+    pointer-events: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cursor2 {
+    position: fixed;
+    width: 95px;
+    height: 95px;
+    left: -100px;
+    padding: 0;
+    margin: 0;
+    cursor: none;
+    pointer-events: none;
+}
