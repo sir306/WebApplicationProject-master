@@ -78,5 +78,4 @@ function screenCheck(x) {
 }
 screenCheck(screenWidth);
 screenWidth.addListener(screenCheck);
-
-
+stylesheets.addEventListener("load", screenCheck);

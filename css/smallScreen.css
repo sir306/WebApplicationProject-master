@@ -1,6 +1,7 @@
 /* Small screens */
 
 /* Home */
+
 div.carousel-img-1 {
     height: 250px;
 }
@@ -19,12 +20,13 @@ div.carousel-img-4 {
 
 div.medium-left-panel-home {
     height: 250px;
-    width:45%;
+    width: 45%;
     margin: auto;
 }
+
 div.medium-right-panel-home {
     height: 250px;
-    width:45%;
+    width: 45%;
     margin: auto;
 }
 
@@ -59,9 +61,10 @@ td.service-data {
     font-size: .85rem;
 }
 
-div.service-col{
+div.service-col {
     padding: 0;
 }
+
 /* About Us images */
 
 div.about-us-left-panel-img1 {
@@ -94,11 +97,12 @@ div.medium-about-us-right-panel-img3 {
 div.about-us-left-panel {
     padding: 0px;
 }
+
 /* Contact Page images */
 
 div.medium-left-panel-contact-us {
     height: 250px;
-    width:45%;
+    width: 45%;
     margin: auto;
 }
 
@@ -115,4 +119,24 @@ div.medium-panel-container {
 
 div.contact-left-col {
     padding: 0px;
+}
+
+body {
+    cursor: default;
+}
+
+a {
+    cursor: default;
+}
+
+button {
+    cursor: default !important;
+}
+
+p {
+    cursor: default;
+}
+
+.hide-me {
+    display: none;
 }
