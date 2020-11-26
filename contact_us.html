@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Font Awesome Stylesheets -->
     <link rel="stylesheet" href="css/font-awesome/css/fontawesome.min.css">
@@ -22,6 +23,7 @@
     <!-- Desktop Stylesheet -->
     <link rel="stylesheet" href="./css/normalColors.css" id="style-sheet">
     <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="./css/customCursors.css">
 
     <!--Adjust to light level  -->
     <link rel="stylesheet" type="text/css" media="(light-level:normal)" href="./css/normalColors.css" />
@@ -37,16 +39,18 @@
     <title>Your Household Vet Nurse</title>
 </head>
 
-<body id="body">
+<body class="contact-us" id="body">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="nav-img"></div>
         <button class="layout-toggle-day-small"><i class="fas fa-sun"></i></button>
         <button class="layout-toggle-night-small"><i class="fas fa-moon"></i></button>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span> Your Household Vet Nurse
         </button>
         <div class="collapse navbar-collapse justify-content-between nav-container" id="navbarResponsive">
-            <h4 class="business-title nav-item"><i class="fas fa-dog"></i> Your Household Vet Nurse <i class="fas fa-cat"></i></h4>
+            <h4 class="business-title nav-item"><i class="fas fa-dog"></i> Your Household Vet Nurse <i
+                    class="fas fa-cat"></i></h4>
             <ul class="navbar-collapse ml-auto w-100 ">
                 <li class="nav-item col-sm nav-link">
                     <a class="nav-link btn-block btn-lg w-100 btn-group" href="index.html"><i class="fas fa-dog"></i>
@@ -82,34 +86,39 @@
                 <div class="contact-div">
                     <table class="contact-table">
                         <tr class="contact-row">
-                            <td class="contact-table-data" colspan="2">Contact Details</td>
+                            <td class="contact-table-data text" colspan="2">Contact Details</td>
                         </tr>
                         <tr class="contact-row">
-                            <td class="contact-table-data">Phone Number</td>
+                            <td class="contact-table-data text">Phone Number</td>
                             <td class="contact-table-data">
                                 <a class="contact-num" href="tel:+64225800441">022-5800-441</a>
                             </td>
                         </tr>
                         <tr class="contact-row">
-                            <td class="contact-table-data">Email</td>
+                            <td class="contact-table-data text">Email</td>
                             <td class="contact-table-data">
-                                <a class="contact-email" href="mailto:nrh55@mywhitecliffe.com">nrh55@mywhitecliffe.com</a>
+                                <a class="contact-email"
+                                    href="mailto:nrh55@mywhitecliffe.com">nrh55@mywhitecliffe.com</a>
                             </td>
                         </tr>
                         <tr class="contact-row">
-                            <td class="contact-table-data">Contact Hours</td>
-                            <td class="contact-table-data">09:00am - 06:00pm</td>
+                            <td class="contact-table-data text">Contact Hours</td>
+                            <td class="contact-table-data text">09:00am - 06:00pm</td>
                         </tr>
                     </table>
                 </div>
                 <label class="email-form-label" for="email-text">Ask us a question</label>
-                <form class="email-form" onsubmit="return validateEmail()" action="mailto:nrh55@mywhitecliffe.com" method="post" enctype="text/plain">
+                <form class="email-form" onsubmit="return validateEmail()" action="mailto:nrh55@mywhitecliffe.com"
+                    method="post" enctype="text/plain">
                     Message: <br>
-                    <textarea name="email-text" id="email-text" cols="30" rows="5" maxlength="150" placeholder="Enter your question/request, max amount of characters is 150..."></textarea><br>
-                    <label for="email-email">Enter your email: </label><input type="email" name="email-email" id="email-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Maximun of 60 characters"><br>
+                    <textarea name="email-text" id="email-text" cols="30" rows="5" maxlength="150"
+                        placeholder="Enter your question/request, max amount of characters is 150..."></textarea><br>
+                    <label for="email-email">Enter your email: </label><input class="text" type="email" name="email-email"
+                        id="email-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                        placeholder="Maximun of 60 characters"><br>
                     <div class="div-form-btn">
-                        <input class="btn form-btn" id="reset-form" type="reset" value="Cancel">
-                        <input class="btn form-btn" id="submit-form" type="submit" value="Send Message">
+                        <input class="btn form-btn input-contact-us" id="reset-form" type="reset" value="Cancel">
+                        <input class="btn form-btn input-contact-us" id="submit-form" type="submit" value="Send Message">
                     </div>
                 </form>
             </div>
@@ -123,20 +132,28 @@
         </div>
     </div>
 
-
+    <img src="./images/nat979.gif" alt="Cursor" class="cursor" />
+    <img src="./images/nat975.gif" alt="Cursor" class="cursor-td-contact-us" />
+    <img src="./images/nat738.gif" alt="Cursor" class="cursor-input-contact-us" />
     <!-- Footer -->
     <footer>
         This is the footer
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- JavaScript -->
     <script src="javascript/dayNightButton.js"></script>
     <script src="javascript/dayNightTime.js"></script>
     <script src="javascript/questionEmailText.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="javascript/menuCursor.js"></script>
 </body>
 
 </html>
