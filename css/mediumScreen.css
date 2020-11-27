@@ -74,6 +74,7 @@ div.right-panel {
 
 /* About us */
 
+
 div.about-us-right-panel {
     width: 0 !important;
     height: 0 !important;
@@ -83,7 +84,9 @@ div.about-us-right-panel {
     color: none;
     padding: 0;
 }
-
+div.medium-panel-container {
+    border: solid #6600FF .2em;
+}
 div.medium-panel-container {
     padding: .4rem;
     border-radius: 25px;

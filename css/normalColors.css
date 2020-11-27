@@ -160,6 +160,16 @@ div.about-us-container {
     border: solid #6600FF .2em;
     background-color: #CC00FF;
 }
+div.about-us-small-panel {
+    border: solid #6600FF .2em;
+    background-color: #CC00FF;
+}
+div.medium-panel-container {
+    border: solid #6600FF .2em;
+    background-color: #CC00FF;
+}
+
+
 
 /* Nav links bottom page */
 .base-nav {

@@ -24,6 +24,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 li::marker {
     text-decoration: none;
 }
@@ -178,11 +179,40 @@ div.service-3-img {
 
 /* about us page styling */
 
+div.medium-panel-container {
+    border: none;
+    background-color: none;
+}
+
+div.about-us-small-panel {
+    border: none;
+    background-color: none;
+}
+
 div.about-us-left-panel {
     padding: .4rem;
     border-radius: 25px;
     margin-top: .2em;
     text-align: center;
+}
+
+div.left-about-container {
+    padding: .4rem;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 1.5rem;
+    text-align: center;
+    overflow: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+div.about-us-left-panel-img1 {
+    margin-bottom: .5em;
+}
+
+div.about-us-left-panel-img2 {
+    margin-bottom: .5em;
 }
 
 div.about-us-right-panel {
@@ -298,21 +328,24 @@ input.form-btn {
 }
 
 /* Nav links bottom page */
+
 div.base-nav {
     width: 100%;
     max-width: 100%;
 }
+
 ul.base-nav {
     max-width: 60%;
     width: 100%;
     margin: auto;
 }
+
 a.base-nav {
     border-radius: 25px;
 }
 
-
 /* Privacy policy */
+
 a.privacy {
     display: inline-block;
     text-decoration: none;
@@ -322,6 +355,7 @@ a.privacy {
     position: relative;
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
+
 /* footers */
 
 footer {

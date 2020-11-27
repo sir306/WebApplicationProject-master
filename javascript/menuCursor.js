@@ -1,5 +1,5 @@
 //custom cursors
-const screen_Width = window.matchMedia("(min-width: 351px)");
+const screen_Width = window.matchMedia("(min-width: 415px)");
 function myCursors() {
   if (screen_Width.matches) {
     //clicker cursors

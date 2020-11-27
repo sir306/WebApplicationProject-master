@@ -1,0 +1,68 @@
+/* about us image insert */
+div.about-us-left-panel-img1 {
+    height: 0px;
+    background-image: unset;
+}
+
+div.about-us-left-panel-img2 {
+    height: 0px;
+    background-image: unset;
+}
+
+div.about-us-left-panel-img3 {
+    height: 0px;
+    background-image: unset;
+}
+
+div.medium-about-us-right-panel-img1 {
+    height: 0px;
+    background-image: unset;
+}
+
+div.medium-about-us-right-panel-img2 {
+    height: 0px;
+    background-image: unset;
+}
+
+div.medium-about-us-right-panel-img3 {
+    height: 0px;
+    background-image: unset;
+}
+div.about-us-small-panel-img1 {
+    height: 455.467px;
+    max-width: 341.6px;
+    width: 100%;
+    margin: .4em;
+    background-image: url(../images/image0.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
+
+div.about-us-small-panel-img2 {
+    height: 455.467px;
+    max-width: 341.6px;
+    margin: .4em;
+    width: 100%;
+    background-image: url(../images/image2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
+
+div.about-us-small-panel-img3 {
+    height: 455.467px;
+    max-width: 341.6px;
+    margin: .4em;
+    width: 100%;
+    background-image: url(../images/image3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+}
