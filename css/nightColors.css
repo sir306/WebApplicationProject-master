@@ -133,6 +133,14 @@ div.about-us-right-panel {
     border: solid black .2em;
     background-color: #933994;
 }
+div.medium-panel-container-about {
+    border: solid black .2em;
+    background-color: #933994;
+}
+div.about-us-small-panel {
+    border: solid black .2em;
+    background-color: #933994;
+}
 
 /* Nav links bottom page */
 

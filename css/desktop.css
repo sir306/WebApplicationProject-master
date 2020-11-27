@@ -179,14 +179,14 @@ div.service-3-img {
 
 /* about us page styling */
 
-div.medium-panel-container {
-    border: none;
-    background-color: none;
+div.medium-panel-container-about {
+    border: unset;
+    background-color: unset;
 }
 
 div.about-us-small-panel {
-    border: none;
-    background-color: none;
+    border: unset;
+    background-color: unset;
 }
 
 div.about-us-left-panel {

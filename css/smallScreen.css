@@ -66,9 +66,23 @@ div.service-col {
 }
 
 /* About Us images */
+
 div.about-us-left-panel {
     border: none;
-    background-color: none;
+    background-color: unset;
+}
+
+div.left-about-container {
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.medium-panel-container-about {
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: unset;
 }
 
 div.about-us-left-panel-img1 {
@@ -91,6 +105,7 @@ div.about-us-left-panel-img3 {
     border: none;
     background-color: none;
 }
+
 div.about-us-small-panel-img1 {
     height: 200px;
     width: auto;
@@ -105,8 +120,8 @@ div.about-us-small-panel-img3 {
     height: 200px;
     width: auto;
 }
+
 div.about-us-small-panel {
-    border: solid #6600FF .2em;
     padding: .4rem;
     border-radius: 25px;
     margin-top: .2em;
@@ -169,5 +184,5 @@ p {
 }
 
 .hide-me {
-    display: none;
+    display: none !important;
 }

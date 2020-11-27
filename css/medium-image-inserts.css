@@ -69,7 +69,7 @@ div.medium-left-panel-home {
     position: relative;
     border-radius: 25px;
     margin-top: .4rem;
-    margin-right: .4em;
+    margin-right: 2em;
 }
 
 div.medium-right-panel-home {
@@ -82,7 +82,7 @@ div.medium-right-panel-home {
     position: relative;
     border-radius: 25px;
     margin-top: .4rem;
-    margin-right: .4em;
+    margin-left: 2em;
 }
 /* Service page images */
 
@@ -96,7 +96,7 @@ div.medium-left-panel-services {
     position: relative;
     border-radius: 25px;
     margin-top: .4rem;
-    margin-right: .4em;
+    margin-right: 2em;
 }
 
 div.medium-right-panel-services {
@@ -109,7 +109,7 @@ div.medium-right-panel-services {
     position: relative;
     border-radius: 25px;
     margin-top: .4rem;
-    margin-right: .4em;
+    margin-left: 2em;
 }
 
 div.services-3-img-1 {
@@ -242,7 +242,7 @@ div.medium-left-panel-contact-us {
     position: relative;
     border-radius: 25px;
     margin-top: .4rem;
-    margin-right: .4em;
+    margin-right: 2em;
 }
 
 div.medium-right-panel-contact-us {
@@ -255,5 +255,5 @@ div.medium-right-panel-contact-us {
     position: relative;
     border-radius: 25px;
     margin-top: .4rem;
-    margin-right: .4em;
+    margin-left: 2em;
 }
