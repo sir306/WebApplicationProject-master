@@ -11,11 +11,11 @@ function setNightColorsByTime() {
     var time = today.getHours();
     console.log(time)
     console.log(typeof(time))
-    if (time >= 22 || time <= 5) {
-        timeStyle.setAttribute("href", "./css/nightColors.css")
+    if (time >= 19 || time <= 6) {
+        timeStyle.setAttribute("href", "./css/nightColors.css");
         dayButton.focus();
         if (confirm('Night mode has been loaded would you like to revert to normal mode? If so click ok.')) {
-            timeStyle.setAttribute("href", "./css/normalColors.css")
+            timeStyle.setAttribute("href", "./css/normalColors.css");
         }
     }
 }
